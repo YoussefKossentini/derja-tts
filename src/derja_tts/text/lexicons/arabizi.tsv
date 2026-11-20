@@ -1,0 +1,178 @@
+# Arabizi -> Arabic script. One entry per line: arabizi<TAB>arabic
+# The lexicon always wins over the rules in arabizi.py.
+# A trailing "+" means "glue to the next Arabic-script word" (el khedma -> الخدمة).
+# Keys are lowercase. Add your own words here, or keep them in a user lexicon
+# and pass it with --user-lexicon.
+
+# --- particles and articles ---
+el	ال+
+l	ال+
+w	و+
+wel	وال+
+fel	فال+
+bel	بال+
+lel	لل+
+mel	مال+
+3al	عال+
+fi	في
+f	في
+m3a	مع
+ma3a	مع
+men	من
+min	من
+3la	على
+ken	كان
+kan	كان
+bech	باش
+bach	باش
+mech	ماش
+ama	أما
+amma	أما
+wala	ولا
+walla	ولا
+kima	كيما
+ki	كي
+zeda	زادة
+zada	زادة
+mta3	متاع
+mte3	متاع
+mta3na	متاعنا
+mte3na	متاعنا
+mta3kom	متاعكم
+mte3kom	متاعكم
+ya	يا
+yezzi	يزي
+akahaw	أكاهو
+3ala5ater	على خاطر
+3lekhater	على خاطر
+khater	خاطر
+5ater	خاطر
+
+# --- pronouns ---
+ena	أنا
+ana	أنا
+enti	إنتي
+inti	إنتي
+howa	هوا
+hiya	هيا
+a7na	أحنا
+ahna	أحنا
+houma	هوما
+intouma	إنتوما
+entouma	إنتوما
+
+# --- questions ---
+chnowa	شنوة
+chnoua	شنوة
+chniya	شنية
+kifech	كيفاش
+kifeh	كيفاه
+3lech	علاش
+wa9tech	وقتاش
+9adech	قداش
+gadech	قداش
+ch7al	شحال
+win	وين
+chkoun	شكون
+
+# --- time and place ---
+taw	توا
+tawa	توا
+lyoum	اليوم
+ghodwa	غدوة
+ba3d	بعد
+ba3dika	بعديكا
+9bal	قبل
+dima	ديما
+barra	برا
+houni	هوني
+ghadi	غادي
+
+# --- common words ---
+barcha	برشا
+chwaya	شوية
+chwia	شوية
+behi	باهي
+bahi	باهي
+mouch	موش
+moch	موش
+fama	فما
+famma	فما
+mafamech	مافماش
+famech	فماش
+ya3ni	يعني
+lezem	لازم
+lazem	لازم
+yelzem	يلزم
+yelzmek	يلزمك
+kol	كل
+haja	حاجة
+7aja	حاجة
+el7aja	الحاجة
+khedma	خدمة
+5edma	خدمة
+mochkla	مشكلة
+mouchkla	مشكلة
+mouhem	مهم
+mohem	مهم
+s7i7	صحيح
+sa7a	صحة
+sa77a	صحة
+kbir	كبير
+sghir	صغير
+s8ir	صغير
+jdid	جديد
+9dim	قديم
+s3ib	صعيب
+sahel	ساهل
+a7sen	أحسن
+ahsen	أحسن
+akther	أكثر
+so2al	سؤال
+soal	سؤال
+mazelet	مازالت
+mazel	مازال
+
+# --- verbs you'll say in every video ---
+nheb	نحب
+n7eb	نحب
+t7eb	تحب
+nfasser	نفسر
+nfasserlkom	نفسرلكم
+nfasarlkom	نفسرلكم
+nchoufou	نشوفو
+chouf	شوف
+choufou	شوفو
+nefhmou	نفهمو
+fhemt	فهمت
+fhemtou	فهمتو
+nabdew	نبداو
+nebdew	نبداو
+nkamlou	نكملو
+nesta3mlou	نستعملو
+yesta3mel	يستعمل
+na3mlou	نعملو
+na3mel	نعمل
+ya3mel	يعمل
+yekhdem	يخدم
+ye5dem	يخدم
+tekhdem	تخدم
+na9ra	نقرا
+9ra	قرا
+9al	قال
+ektbouh	اكتبوه
+ekteb	اكتب
+3malna	عملنا
+ysir	يصير
+
+# --- greetings ---
+3aslema	عسلامة
+aslema	عسلامة
+salem	سلام
+ahla	أهلا
+sahbi	صاحبي
+sa7bi	صاحبي
+ya3tik	يعطيك
+inchallah	إن شاء الله
+nchallah	إن شاء الله
+hamdoullah	الحمد لله

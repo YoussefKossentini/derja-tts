@@ -1,0 +1,24 @@
+# audio and generated data never go in git
+data/
+recordings/
+out_*/
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.zip
+
+# models
+checkpoints/
+pretrained_models/
+*.pt
+*.safetensors
+
+# python
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.venv/
+.ipynb_checkpoints/
+build/
+dist/

@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "derja-tts"
+version = "0.1.0"
+description = "Text-to-speech for Tunisian Derja, built for narrating tech videos"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Youssef Kossentini" }]
+requires-python = ">=3.10"
+dependencies = ["num2words>=0.5.13"]
+
+[project.optional-dependencies]
+# Data prep. Chatterbox itself is installed in the notebooks, not here,
+# because it pins its own torch version.
+audio = [
+    "numpy",
+    "librosa>=0.10",
+    "soundfile",
+    "torch",
+    "silero-vad>=5.1",
+    "transformers>=4.40",
+    "datasets>=2.19",
+    "tqdm",
+]
+dev = ["pytest"]
+
+[project.scripts]
+derja-tts = "derja_tts.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"derja_tts.text" = ["lexicons/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

@@ -1,0 +1,10 @@
+3aslema, lyoum bech nfasserlkom chnowa howa el overfitting.
+El model mte3na ya3mel memorization lel training data, ama ki nesta3mlouh 3la test set ma ye5demch.
+باش نفهمو الgradient descent, لازم نرجعو للderivative.
+Learning rate = 0.01, w 3malna 50 epochs bel Adam optimizer.
+Taw nchoufou el code fi Colab, 7allou el notebook m3aya.
+L'accuracy tla3et 92% ama el loss mazelet ma habtetch.
+Ken 3andkom so2al, ektbouh fel commentaires.
+El overfitting ysir ki el model ye7fedh el data.
+الأوفرفيتينغ يصير كي الموديل يحفظ الداتا.
+Fel 2026, el GPU wala a7sen men el CPU fel deep learning.

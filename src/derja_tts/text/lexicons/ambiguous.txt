@@ -1,0 +1,16 @@
+# Words that exist both in Arabizi and in English/French.
+# The normalizer decides from the neighbours: if the words around it are
+# mostly Derja (Arabic script or Arabizi) it reads them as Arabizi, if they
+# are mostly Latin it keeps them Latin. A tie goes to Derja.
+#   la  : لا (no)        vs French "la"
+#   ma  : ما             vs French "ma"
+#   men : من             vs English "men"
+#   min : من             vs English "min"
+#   win : وين (where)    vs English "win"
+# Particles like w, l, f, bel, ki are NOT here on purpose: in a Derja script,
+# "epochs bel Adam optimizer" still means "epochs with the Adam optimizer".
+la	لا
+ma	ما
+men	من
+min	من
+win	وين
